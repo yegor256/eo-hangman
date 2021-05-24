@@ -21,5 +21,6 @@
 # SOFTWARE.
 
 all:
-	mvn compile
-	mvn test
+	$(MAKE) -C rt
+
+.PHONY: all
