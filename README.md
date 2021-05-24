@@ -14,7 +14,7 @@ are no hidden letters anymore, the computer looses.
 The game is implemented in [EOLANG](https://www.eolang.org). The source
 code is in `/eo` directory. The code may compile to different target
 VMs, including Java, Ruby, etc. Each build system is in its own directory,
-such as `/jvm`, `/ruby`, etc.
+such as `/rt/jvm`, `/rt/ruby`, etc.
 
 To build them all, run:
 
